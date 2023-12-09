@@ -1,0 +1,43 @@
+@import url(contact-hero.css);
+@import url(contact-address.css);
+@import url(contact-proposal.css);
+@import url(contact-form.css);
+@import url(contact-footer.css);
+@import url(../style-2/banner.css);
+@import url(../style-2/header.css);
+@import url(../style-2/we-do.css);
+@import url(../style-2/who-we.css);
+@import url(../style-2/work.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Luckiest+Guy&family=Monoton&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Luckiest+Guy&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+  /* Style the arrows */
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    /* Customize the appearance of the up and down arrows */
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Style for WebKit browsers (Chrome, Safari) */
+  input[type="number"]::-webkit-inner-spin-button::before,
+  input[type="number"]::-webkit-outer-spin-button::before {
+    /* Add custom content for the arrows */
+    content: '▲'; /* Up arrow */
+    color: green; /* Change arrow color */
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button::after,
+  input[type="number"]::-webkit-outer-spin-button::after {
+    /* Add custom content for the arrows */
+    content: '▼'; /* Down arrow */
+    color: red; /* Change arrow color */
+  }
+  

@@ -1,0 +1,108 @@
+.form{
+    padding: 3rem 1rem;
+    font-family: "Hedvig",sans-serif;
+    font-size: 0.1rem;
+}
+.about-you {
+  display: flex;
+  flex-direction: column;
+}
+.about-you h1,.budget h1,.form-text-area h1 {
+  font-family: "Hedvig Letters Sans", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  text-align: left;
+  color: #1cb5e0;
+  margin-bottom: 0.7rem;
+}
+.about-you-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.about-you-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.about-you-field h2 {
+  font-family: "Hedvig Letters Sans", sans-serif;
+  font-size: 0.6rem;
+  text-align: left;
+  color: #0c0b2a;
+}
+.about-you-field input {
+    height: 2rem;
+    font-size: 1rem;
+    width: 100%;
+  border: 3px solid rgba(67, 198, 172, 1);
+  border-radius: 0.2rem;
+}
+
+
+/* Budget */
+
+.budget,.form-text-area {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+
+.budget h1{
+    margin-top: 1rem;
+}
+.budget input {
+    height: 2rem;
+    font-size: 1rem;
+    width: calc(50vw - 2rem);
+    border: 3px solid rgba(67, 198, 172, 1);
+    border-radius: 0.2rem;
+
+}
+
+/* text area */
+
+
+.form-text-area textarea{
+    width: calc(50vw - 2rem);
+    width: calc(50vw - 2rem);
+    border: 3px solid rgba(67, 198, 172, 1);
+    border-radius: 0.2rem;
+    font-size: 1rem;
+}
+.form-text-area h1{
+    margin-top: 0.6rem;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  width: max-content;
+  padding: 0.3rem 0.6rem;
+  border: 3px solid rgba(25, 22, 84, 1);
+  border-radius: 0.2rem;
+  margin-top: 1rem;
+}
+.button button{
+  cursor: pointer;
+  text-transform: uppercase;
+color: #191654;
+  font-size: 1rem;
+  background: none;
+  border: none;
+}
+@media screen and (max-width:760px) {
+    .about-you-form {
+        grid-template-columns: 1fr;
+    }
+    .budget input, .form-text-area textarea{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:1190px) {
+    .button button{
+      font-size: 0.45rem;
+    }
+}

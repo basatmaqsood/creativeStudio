@@ -1,0 +1,148 @@
+.we_do-section {
+  display: flex;
+  font-family: "Hedvig Letters Sans", sans-serif;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: row;
+}
+
+.left-do {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  gap: 5px;
+  padding-left: 2rem;
+}
+.right-do {
+  padding-right: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-do-h2 {
+  font-size: 32px;
+  padding: 1.5rem 0rem 0.8rem 0rem;
+  margin-left: 0.6rem;
+  border-bottom: 2px solid rgba(67, 198, 172, 1);
+  width: max-content;
+  font-family: "Monoton", sans-serif;
+  color: #191654;
+  font-weight: lighter;
+}
+.para-do {
+  padding: 1rem 0 1rem 0.8rem;
+  color: grey;
+  line-height: 1.4;
+}
+
+.right-do {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.upper-right_do {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.lower-right_do {
+  display: flex;
+  flex-direction: row;
+  gap: 0.9rem;
+  width: 642px;
+}
+
+.do-img {
+  width: 300px;
+}
+.do-heading {
+  text-align: left;
+  color: #1cb5e0;
+  font-size: 32px;
+  font-weight: lighter;
+}
+.do-para {
+  font-size: 22px;
+  width: 290px;
+  color: gray;
+  padding: 1rem 0;
+}
+.upper-right_do-1,
+.upper-right_do-2 {
+  width: 310px;
+}
+
+@media screen and (max-width: 759px) {
+  .we_do-section {
+    flex-direction: column;
+  }
+  .upper-right_do {
+    flex-direction: column;
+  }
+  .upper-right_do-1,
+  .upper-right_do-2 {
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+  }
+  .para-do {
+    font-size: 16px;
+  }
+  .left-do {
+    width: 100%;
+  }
+  .right-do {
+    margin: 2rem auto;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+    padding-left: 1rem;
+  }
+  .left-do-h2 {
+    font-size: 22px;
+  }
+  .more-work {
+    padding: 0.6rem 1.5rem;
+    margin-right: 0.9rem;
+  }
+  .lower-right_do {
+    flex-direction: column;
+    gap: 0.9rem;
+
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1190px) {
+  .we_do-section {
+    flex-direction: column;
+  }
+  .upper-right_do {
+    flex-direction: column;
+  }
+  .upper-right_do-1,
+  .upper-right_do-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .lower-right_do {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .right-do {
+    align-items: baseline;
+    margin: 2rem auto;
+    justify-content: center;
+    padding-left: 2rem;
+  }
+}

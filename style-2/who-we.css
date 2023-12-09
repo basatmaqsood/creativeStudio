@@ -1,0 +1,109 @@
+.who-we_section {
+  background-color: #0c0b2a;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-family: "Hedvig Letters Sans", sans-serif;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 1.4rem 0.3rem;
+}
+
+.who-h3 {
+  color: #1CB5E0;
+  font-size: 44px;
+  font-family: "Monoton", sans-serif;
+}
+
+.who-para {
+  color: #ecf9f6;
+  padding: 2rem 5rem 1rem 0;
+}
+.who-para p {
+  color: #ecf9f6;
+  /* padding: 2rem 5rem 1rem 0; */
+}
+
+
+.who_we-left {
+  width: 50%;
+  object-fit: contain;
+  padding: 2rem 2.4rem;
+}
+
+.who_we-right {
+  /* align-self: flex-start; */
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.learn-more-btn {
+  border: 2px solid #ecf9f6;
+  padding: 1.4rem 2.4rem;
+  color: #ecf9f6;
+  width: max-content;
+  font-weight: 100;
+  font-variant: small-caps;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 759px) {
+  .who-we_section {
+    flex-direction: column-reverse;
+    /* justify-content: center; */
+  }
+
+  .who-h3 {
+    font-size: 22px;
+  }
+
+  .who_we-right {
+    align-self: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1.4rem;
+    flex-wrap: wrap;
+  }
+  .who_we-left {
+    padding: 0.3rem;
+    width: 301px;
+    height: 249px;
+    margin: 0.9rem 0;
+  }
+  .who_we-left img {
+    width: 100%;
+  }
+  .learn-more-btn {
+    padding: 1rem 0.3rem;
+
+    width: 260px;
+    float: left;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1190px) {
+  .who-we_section {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .who_we-left {
+    padding: 0.3rem;
+    width: 600px;
+    margin: 0.9rem 0;
+  }
+  .who_we-left img {
+    width: 100%;
+  }
+  .learn-more-btn {
+    padding: 1rem 0.3rem;
+    margin-left: 0.4rem;
+    width: 280px;
+    float: left;
+    font-size: 20px;
+  }
+}

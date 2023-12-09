@@ -1,0 +1,38 @@
+.proposal {
+  background-color: black;
+  background-image: url(../images/proposal-bg.png);
+  background-position: bottom;
+  height: 500px;
+}
+.proposal-center {
+  height: 100%;
+  width: 100%;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.proposal-center h1 {
+  font-family: "Monoton", cursive;
+  font-weight: lighter;
+  max-width: 700px;
+  font-size: 1.5rem;
+  text-align: left;
+  color: #ecf9f6;
+  border-bottom: 2px solid rgba(67, 198, 172, 1);
+}
+.proposal-center p {
+  font-family: "Hedvig Letters Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  text-align: left;
+  color: #ecf9f6;
+  max-width: 600px;
+}
+
+@media screen and (max-width:760px) {
+  .proposal-center h1 {
+    font-size: 1rem;
+  }
+}

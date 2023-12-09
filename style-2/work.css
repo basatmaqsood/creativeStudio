@@ -1,0 +1,105 @@
+.Work-section {
+  padding: 2rem 0;
+  margin: 3rem auto;
+  font-family: "Hedvig Letters Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+.work-h2 {
+  font-size: 32px;
+  padding: 1.5rem 0rem 0.8rem 0rem;
+  margin-left: 0.6rem;
+  border-bottom: 2px solid rgba(67, 198, 172, 1);
+  width: max-content;
+  font-family: "Monoton", sans-serif;
+  color: #191654;
+  font-weight: lighter;
+}
+.work-para {
+  color: gray;
+  font-weight: lighter;
+  width: 45%;
+  font-size: 17px;
+  margin-left: 0.6rem;
+  padding: 1.5rem 0rem 1rem 0rem;
+  line-height: 1.2;
+}
+
+.row1,
+.row2 {
+  display: flex;
+  overflow-x: scroll;
+}
+.row1::-webkit-scrollbar,
+.row2::-webkit-scrollbar {
+  display: none;
+}
+
+.img-blue,
+.img-light_blue {
+  max-width: 400px;
+  min-width: 370px;
+  object-fit: contain;
+  background-color: #191654;
+  height: 100%;
+  overflow: hidden;
+}
+.img-light_blue {
+  background-color: #1cb6e0;
+}
+.img-blue img,
+.img-light_blue img {
+  max-width: 400px;
+  min-width: 370px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.blue-para,
+.light_blue-para {
+  color: rgba(255, 255, 255, 0.895);
+  padding: 0.8rem 0.4rem;
+  font-size: 14px;
+}
+
+.light_blue-para {
+  background-color: #1cb6e0;
+  color: #1a5081;
+}
+
+.more-work {
+  margin-top: 2rem;
+  background-color: transparent;
+  color: #454375;
+  border: 2px solid #454375;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  justify-content: end;
+  align-items: center;
+  float: right;
+  width: max-content;
+  padding: 1rem 3.5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+/* media---- ----quey  */
+
+@media screen and (max-width: 400px) {
+  .work-para {
+    width: 75%;
+    font-size: 13px;
+  }
+  .more-work {
+    padding: 0.6rem 2.5rem;
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 760px) {
+  .work-para {
+    width: 75%;
+  }
+}

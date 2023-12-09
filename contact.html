@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <style>
+      * {
+        font-size: 2rem;
+      }
+      .Header-section,
+      .header,
+      .nav-bar * {
+        font-size: initial;
+      }
+      .Header-section {
+        height: 90px;
+      }
+      .nav-searchbar {
+        width: 12rem;
+        height: 1.3rem;
+      }
+      .nav-list{
+        top: 2.7rem;
+      }
+    </style>
+    <title>Contact us</title>
+  </head>
+  <body>
+    <!-- NAVBAR GOES HERE -->
+    <section class="Header-section">
+      <header class="header">
+        <nav class="nav-bar nav-bar-2">
+          <!-- logo -->
+
+          <div class="nav-logo">
+            <img src="images/creative-studio-logo.png" alt="logo" />
+          </div>
+
+          <!-- nav-list  -->
+          <div class="nav-list">
+            <ul class="nav-list-items">
+              <li>Services</li>
+              <li>OUR WORK</li>
+              <li>ABOUT US</li>
+              <li>BLOG</li>
+              <li>CONTACT</li>
+            </ul>
+            <div class="nav-searchbar mobile-search nav-searchbar2">
+              <span class="search-box">
+                <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+                <input type="search" placeholder="SEARCH" id="search" />
+              </span>
+            </div>
+          </div>
+
+          <!-- search-bar  -->
+
+          <div class="nav-searchbar large-screen-search">
+            <span class="search-box">
+              <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+              <input type="search" placeholder="SEARCH" id="search" />
+            </span>
+          </div>
+          <!-- menu-icon -->
+          <span class="menu-icon" id="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+        </nav>
+      </header>
+    </section>
+    <!-- NAVBAR ENDS HERE -->
+    <!-- HERO SECTION HERE -->
+    <header class="contact-hero">
+      <div class="contact-hero-center">
+        <h1>CONTACT US</h1>
+      </div>
+    </header>
+    <!-- HERO ENDS HERE -->
+    <!-- ADDRESS -->
+    <section class="contact-address">
+      <div class="address-center">
+        <div class="address-left">
+          <h1>HOW CAN WE HELP TODAY</h1>
+          <p>
+            Looking to start a new project or just to chat? Send us an email,
+            give us a call or fill out the form below with your details and we
+            will be happy to discuss your ideas.
+          </p>
+        </div>
+        <div class="address-right">
+          <h1>Email us. Say Hello!</h1>
+          <h2>hello@creativestudio.com</h2>
+          <h3>Visit or Call</h3>
+          <div class="contact-office">
+            <div class="office">
+              <h1>New York Office</h1>
+              <p>136W 30th Street <br />New York, NY 10038</p>
+              <p>(310) 570 - 4482</p>
+              <p>Mon - Fri:9am - 5pm</p>
+            </div>
+            <div class="office">
+              <h1>Manhattan Beach Office</h1>
+              <p>1800 Larson Street <br />New York, CA 90266</p>
+              <p>(424) 223 - 3767</p>
+              <p>Mon - Fri:8:30am - 4:30pm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End of Address -->
+    <!-- Project Submit -->
+    <section class="proposal">
+      <div class="proposal-center">
+        <h1>HAVE A PROJECT YOU WANT TO GET STARTED?</h1>
+        <p>
+          Please Submit your details for free consultation call and proposal. We
+          review every inquiry and respond promptly. You may also send us a
+          quick note.
+        </p>
+      </div>
+    </section>
+    <!-- End of project proposal -->
+    <!-- Form -->
+    <form action="" class="form">
+      <div class="about-you">
+        <h1>Tell us about you?</h1>
+        <div class="about-you-form">
+          <div class="about-you-field">
+            <h2>Full NAME</h2>
+            <input type="text" />
+          </div>
+          <div class="about-you-field">
+            <h2>COMPANY</h2>
+            <input type="text" />
+          </div>
+          <div class="about-you-field">
+            <h2>PHONE NUMBER</h2>
+            <input type="text" />
+          </div>
+          <div class="about-you-field">
+            <h2>CITY</h2>
+            <input type="text" />
+          </div>
+          <div class="about-you-field">
+            <h2>EMAIL ADDRESS</h2>
+            <input type="email" />
+          </div>
+          <div class="about-you-field">
+            <h2>WEBSITE(OPTIONAL)</h2>
+            <input type="text" />
+          </div>
+        </div>
+      </div>
+      <div class="budget">
+        <h1>What is your budget?</h1>
+        <input type="number" placeholder="10k-14k" />
+      </div>
+      <div class="form-text-area">
+        <h1>Tell us about your Project</h1>
+        <textarea cols="15" rows="6"></textarea>
+      </div>
+      <div class="button">
+        <button type="submit">Send us Your Project</button>
+        <span class="material-symbols-outlined"> arrow_forward </span>
+      </div>
+    </form>
+    <!-- End of Form -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-center">
+        <div class="footer-left">
+          <h1>OUR OFFICES</h1>
+          <div class="contact-office-footer">
+            <div class="office-footer">
+              <p>136W 30th Street <br />New York, NY 10038</p>
+              <p>(310) 570 - 4482</p>
+              <p>Mon - Fri:9am - 5pm</p>
+            </div>
+            <div class="office-footer">
+              <p>1800 Larson Street <br />New York, CA 90266</p>
+              <p>(424) 223 - 3767</p>
+              <p>Mon - Fri:8:30am - 4:30pm</p>
+            </div>
+            <div class="office-footer-email">
+              <h3>Email us, say Hello!</h3>
+              <p>hello@creativestudio.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-right">
+          <h1>Subsribe to Our Newsletter</h1>
+          <div class="newsletter-box">
+            <input type="email" placeholder="EMAIL ADDRESS" />
+            <button type="submit">Subscribe</button>
+          </div>
+          <p>
+            You may unsubscribe from our monthly newsletter at any time. Check
+            out our Privacy Policy for more information on how we store and
+            protect your data.
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-center">
+          <div class="footer-bottom-left">
+            <p>
+              Copyright 2022 | For educational purpose only | Privacy Policy
+            </p>
+          </div>
+          <div class="footer-bottom-right">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-mailchimp"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+  </body>
+  <script src="script/main.js"></script>
+</html>

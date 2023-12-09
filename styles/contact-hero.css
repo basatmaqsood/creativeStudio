@@ -1,0 +1,38 @@
+.contact-hero {
+  background-image: linear-gradient(
+    -160deg,
+    rgba(67,198,172,1),
+    #191654,
+    #269ed1
+  );
+  height: 70VH;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-hero-center{
+    position: relative;
+    bottom: 10px;
+}
+.contact-hero-center h1{
+    font-size: 2rem;
+    color: white;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Monoton',sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@media screen and (max-width:760px) {
+.contact-hero{
+  height: 60vh;
+}
+  /* .contact-hero-center h1 {
+    font-size: 1.5rem;
+  } */
+  
+  .contact-hero-center h1{
+      font-size: 0.95rem;
+  }
+}
+
